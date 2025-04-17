@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>stvn.uk mail</title>
+  <style>
+    body {
+      margin: 0;
+      background-color: #000;
+      color: #fff;
+      font-family: Arial, sans-serif;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      height: 100vh;
+      text-align: center;
+    }
+    .logo {
+      max-width: 512px;
+      margin-bottom: 2rem;
+    }
+    .info {
+      max-width: 600px;
+      font-size: 1.2rem;
+      line-height: 1.5;
+    }
+	ul {
+		list-style-type: none;
+		padding: 0;
+	}
+	ul li {
+		margin: 10px 0;
+	}
+	footer {
+		width: 100%;
+		padding-bottom: 5px;
+		padding-top: 5px;
+		background-color: #222;
+		color: #ccc;
+		text-align: center;
+		position: absolute;
+		bottom: 0;
+		left: 0;
+	}
+	footer p {
+		margin: 0;
+	}
+  </style>
+</head>
+	<body>
+	  <img src="logo.png" alt="stvn.uk mail logo" class="logo" />
+	  
+	  <section>
+		<h2>Why Choose stvn.uk mail?</h2>
+		<ul>
+			<li><strong>End-to-End Encryption:</strong> Your messages stay private from the moment you hit send.</li>
+			<li><strong>Ad-Free Experience:</strong> We don’t scan your emails or show you ads—ever.</li>
+			<li><strong>UK Based:</strong> Your data is always stored securely inside the UK.</li>
+			<li><strong>Cross-Platform Access:</strong> Access your mail from any device, anywhere in the world.</li>
+		</ul>
+	  </section>
+
+		<section class="feature-list">
+			<div>
+				<h3>Features</h3>
+				<ul>
+					<li>2FA & Biometric Login</li>
+					<li>Spam & Virus Protection</li>
+					<li>Customisable Storage Plans</li>
+					<li>Advanced Filtering & Rules</li>
+					<li>Integrated Calendar & Contacts</li>
+				</ul>
+			</div>
+		</section>
+
+		<section>
+			<h2>Our Commitment to Security</h2>
+			<p>At stvn.uk mail, we use industry-leading security protocols. Your data is never shared, sold, or stored without encryption.</p>
+		</section>
+		
+		<footer>
+			<p>&copy; <span id="current-year"></span> stvn.uk</p>
+		</footer>
+	</body>
+</html>
+
+<script>
+    // Get the current year and set it in the span with id "current-year"
+    document.getElementById("current-year").textContent = new Date().getFullYear();
+</script>
